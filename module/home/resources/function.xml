@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functions>
+    <function>
+        <name>view</name>
+        <uri>view</uri>
+    </function>
+    <function>
+        <name>Carrousel_Brand</name>
+        <uri>Carrousel_Brand</uri>
+    </function>
+    <function>
+        <name>carroceria</name>
+        <uri>category</uri>
+    </function>
+    <function>
+        <name>carroceria</name>
+        <uri>carroceria</uri>
+    </function>
+    <function>
+        <name>type</name>
+        <uri>type</uri>
+    </function>
+    <function>
+        <name>visit</name>
+        <uri>visit</uri>
+    </function>
+    <function>
+        <name>cattype</name>
+        <uri>cattype</uri>
+    </function>
+</functions>

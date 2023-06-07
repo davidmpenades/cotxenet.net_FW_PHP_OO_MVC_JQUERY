@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<body_>
+    
+	<div class="main" >  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form  id="register__form" method="post">
+					<label for="chk" aria-hidden="true">Registro</label>                    					
+                    <input for="user" id="username_reg" type="text" class="input" name="username_reg" placeholder="Nombre Usuario" >
+                    <span id="error_username_reg" class="error"></span>
+                    <input for="pass" id="email_reg" type="email" class="input" name="email_reg" placeholder="Email">
+                    <span  id="error_email_reg" class="error"></span>
+                    <input for="pass" id="passwd1_reg" type="password" class="input" name="passwd1_reg" placeholder="Password">
+                    <span id="error_passwd1_reg" class="error"></span>
+                    <input for="pass" id="passwd2_reg" type="password" class="input" name="passwd2_reg" placeholder=" Repite Password">
+                    <span  id="error_passwd2_reg" class="error"></span>					
+                    <input type="submit" id="register" class="button" value="REGISTRAR" style="padding: 2px;box-sizing: content-box; background-color: green;">
+                </form>
+			</div>
+
+			<div class="login">
+				<form id="login__form" method="POST">
+					<label id="jump" for="chk" aria-hidden="true">Login</label>
+                    <input for="user" id="username_log" type="text" class="input" name="username_log" placeholder="Nombre de Usuario">
+                    <span id="error_username_log" class="error"></span>
+                    <input for="pass" id="passwd_log" type="password" class="input" name="passwd_log" placeholder="Password">
+                    <span  id="error_passwd_log" class="error"></span>
+                    <input style="padding: 4px;box-sizing: content-box; background-color: green;" type="submit" id="login" class="button" value="Entrar">                    
+                </form>
+                <div class="social_login">
+                    <div class="google_login" id="google">
+                        <img class="google_img"/>
+                    </div>
+                    <div class="github_login" id="github">
+                        <img class="github_img"/>
+                    </div>
+                </div>
+                <div class="foot-lnk">
+                    <label id="forget_pass">Forgot Password?</label>                    
+                </div>                
+			</div>
+	</div>
+    <div class="forget_html">
+        <form id="recover_email_form" method="post">
+            <h1>Recover Password</h1>
+            <div class="forget">
+                <div class="email_recover">
+                    <label for="email_forg" class="label">Email Address: </label>
+                    <br>
+                    <input id="email_forg" name="email_forg" type="text" class="input" placeholder="example@gmail.com">
+                    <font color="red">
+                        <br>
+                        <span id="error_email_forg" class="error"></span>
+                    </font>
+                </div>                
+                <div class="button_forget">
+                    <input type="button" class="button" id="button_recover" value="Send email">
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    
+</body_>
+</html>
